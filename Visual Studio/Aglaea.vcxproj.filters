@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\Pubc\Version.h">
+      <Filter>Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pubc\Register.h">
+      <Filter>Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pubc\Tuple.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Meta\contributors.json">
+      <Filter>Meta</Filter>
+    </None>
+    <None Include="..\Meta\libraries.json">
+      <Filter>Meta</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Meta">
+      <UniqueIdentifier>{c40fcb63-2a35-444f-8a04-16042804312d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{4ea39c00-6fc1-431a-8933-f3a6a6930c4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Meta\generate_meta.txt">
+      <Filter>Meta</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Meta\licence_name.txt">
+      <Filter>Meta</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Pubc\Version.cpp">
+      <Filter>Meta</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
