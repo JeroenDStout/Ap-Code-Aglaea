@@ -7,8 +7,29 @@
     <ClInclude Include="..\Pubc\Register.h">
       <Filter>Meta</Filter>
     </ClInclude>
-    <ClInclude Include="..\Pubc\Tuple.h">
+    <ClInclude Include="..\Pubc\Raw Sluice.h">
+      <Filter>Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pubc\Raw Rill.h">
+      <Filter>Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pubc\Abstract Memory.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pubc\Abstract Sluice Seq Writer.h">
+      <Filter>Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pubc\Base Sluice.h">
       <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pubc\Simple Disk IO.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pubc\Create Sluice.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pubc\Simple Performer.h">
+      <Filter>Util</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -23,8 +44,17 @@
     <Filter Include="Meta">
       <UniqueIdentifier>{c40fcb63-2a35-444f-8a04-16042804312d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Raw">
+      <UniqueIdentifier>{1513f1ae-3d37-4f7b-a3da-757bbc8e65ac}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Base">
-      <UniqueIdentifier>{4ea39c00-6fc1-431a-8933-f3a6a6930c4f}</UniqueIdentifier>
+      <UniqueIdentifier>{0539aa21-3190-48fd-998c-91b02a537f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{0af23258-fcae-46f8-a853-ae0645de7a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abstract">
+      <UniqueIdentifier>{084fa4e8-f12e-4d63-bd93-c66370dbb011}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -40,6 +70,12 @@
   <ItemGroup>
     <ClCompile Include="..\Pubc\Version.cpp">
       <Filter>Meta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Pubc\Simple Performer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Pubc\Simple Disk IO.cpp">
+      <Filter>Util</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
